@@ -18,7 +18,7 @@ exports.getProducts = async (req, res, next) => {
      products
     })
 }
-
+    
 //Get single product details =>/api/v1/product/:id
 exports.getSingleProduct = async (req, res, next) => {
     let product = await Product.findById(req.params.id);

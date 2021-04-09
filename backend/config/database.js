@@ -1,4 +1,4 @@
-const mongoose=require('mongoose')
+const mongoose = require('mongoose')
 
 const connectDB = async () => {
 
@@ -14,7 +14,6 @@ const connectDB = async () => {
         console.log("Database is not connected")
         process.exit(1)
     }
-
 }
 
 module.exports = connectDB
